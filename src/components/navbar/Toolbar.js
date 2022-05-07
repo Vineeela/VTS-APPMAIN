@@ -7,6 +7,9 @@ import { FaSearch } from "react-icons/fa";
 import "./Toolbar.css";
 
 const NavbarVts = () => {
+//added  changes in the toolbar
+
+
   return (
     <div className="nave">
       <Navbar collapseOnSelect expand="sm" bg="aliceblue" variant="light">
