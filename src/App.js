@@ -4,17 +4,17 @@ import { Routes, Route } from 'react-router-dom';
 import Overview from './pages/Overview';
 import Sidebar from './components/sidebar/Sidebar';
 import Vehicle from './pages/Vehicle';
+import Trails from './pages/Trails';
 
 function App() {
   return (
-    <div>
-      <div >
+    <div className='main'>
         <Sidebar />
-      </div>
-      <div className="contents">
+      <div className="container">
         <Routes>
           <Route path='/' element={<Overview />} />
           <Route path='/vehicle' element={<Vehicle />} />
+          <Route path='/trails' element={<Trails/>} />
         </Routes>
       </div>
     </div>

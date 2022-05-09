@@ -1,42 +1,56 @@
-*{
-  margin:0;
-  padding:0;
-  text-decoration: none;
-}
-.container{
-  display:flex;
-}
+
 .sidebar{
   position: absolute; 
   top: 0;
   left: 0;
-  height: 100px;
   width: 260px;
-  
+  height: 100vh;
+  border-right: 2px solid #F0F4FB ;
 }
 .nav-text{
     list-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     padding: 15px;
     padding-left: 17%;
- 
     display: flex;
     align-items: center;
     gap:2rem;
-    font-weight: 10;
+    font-weight: initial;
    font-size: small;
     cursor: pointer;
-    border-right: 2px solid #F0F4FB;
+  
+    
 }
 .nav-text:hover{
-  color:white;
-  background-color: rgba(40, 166, 201, 0.765);
+  color:rgb(31, 60, 179);
+  
+ 
   transition: all 0.5s;
 }
-main{
-  width: 100%;
-  padding: 20px;
+.nav-track{
+  list-style: none;
+  font-weight: bolder;
+  padding-left: 12%;
+  padding-bottom: 18px;
 }
-nav-over{
-  padding-top: 10%;
+
+.nav-over{
+  padding-top: 30%;
+  list-style: none;
+  padding-left: 17%;
+  padding-bottom: 35px;
+  font-size: medium;
+  cursor: pointer;
+  font-size: 13px;
+}
+.nav-over:hover{
+  color:rgb(46, 38, 190);
+ 
+  transition: all 0.5s;
+}
+.nav-manage{
+  list-style: none;
+  padding-top: 4%;
+  font-weight: bolder;
+  padding-left: 12%;
+  padding-bottom: 22px;
 }

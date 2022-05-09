@@ -14,11 +14,11 @@ export const SidebarData=[
         title:'Overview',
         path:'/',
         icon:<MdOutlineDashboard/>,
-        cName:'nav-text'
+        cName:'nav-over'
     },
     {
         title:'Track',
-        cName:'nav-text'
+        cName:'nav-track'
     },
     {
         title:'Vehicle',
@@ -46,7 +46,7 @@ export const SidebarData=[
     },
     {
         title:'Manage',
-        cName:'nav-text'
+        cName:'nav-manage'
     },
     {
         title:'Groups/Assests',

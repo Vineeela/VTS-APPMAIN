@@ -2,7 +2,7 @@ import React from 'react'
 
  const Vehicle = () => {
   return (
-    <div style={{textAlign:'center'}}>Vehhjkdfhgkjdfhicle</div>
+    <div >Vehicle</div>
   )
 };
 export default Vehicle;
