@@ -1,12 +1,13 @@
-import React from 'react'
-import NavbarVts from '../components/navbar/Toolbar';
+import React,{Fragment} from 'react'
+import { Container, Col, Row } from 'react-bootstrap';
+import NavbarVts from '../components/navbar/NavbarVts';
+import Sidebar from '../components/sidebar/Sidebar';
 
- const Overview = () => {
+const Overview = () => {
   return (
-    <div>
-        <NavbarVts/>
-        
-    </div>
+    <Fragment>
+     
+    </Fragment>
   )
 };
-export default  Overview;
+export default Overview;

@@ -1,15 +1,4 @@
-.main{
-    display: flex;
-  }
-  .container{
-    flex: 6;
-    width:auto;
-    padding: 2em;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border-color:red;
-  }
+.App{
+    background-color: aqua;
+  };
+  

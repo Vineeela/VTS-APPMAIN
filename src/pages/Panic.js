@@ -1,11 +1,11 @@
 import React from 'react'
 import NavbarVts from '../components/navbar/NavbarVts';
 
-const Trails = () => {
+ const Panic = () => {
   return (
     <div>
-    Trails
-    </div>
+      
+      </div>
   )
 };
-export default Trails;
+ export default Panic;
