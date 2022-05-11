@@ -13,7 +13,7 @@ import "./NavbarVts.css";
 const NavbarVts = () => {
   return (
     <div className='vts'>
-      <Navbar bg="light" expand="lg" style={{ width: "default", }}>
+      <Navbar bg="light" expand="lg" style={{ width:"auto", backgroundColor:"background-color: rgba(240, 244, 248)" }}>
         <Container fluid>
           <Navbar.Brand href="#" >Dashboard</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,10 +24,7 @@ const NavbarVts = () => {
               navbarScroll
             >
             </Nav>
-
-
-
-            <Form className="d-flex" style={{ paddingRight: '10px' }}>
+            <Form className="d-flex" >
               <FormControl
                 type="search"
                 placeholder="Search"
@@ -36,12 +33,10 @@ const NavbarVts = () => {
               />
               <Button style={{ color: 'whitesmoke' }}><BsSearch style={{ fontSize: '20px', }} /></Button>
             </Form>&nbsp;&nbsp;&nbsp;
-
             Rohan sharma&nbsp;&nbsp;
             <CgProfile style={{ fontSize: '25px' }} />&nbsp;&nbsp;&nbsp;&nbsp;
             <FiSettings style={{ fontSize: '25px' }} /> &nbsp;&nbsp;&nbsp;&nbsp;
             <IoMdNotificationsOutline style={{ fontSize: '25px' }} />
-
           </Navbar.Collapse>
         </Container>
       </Navbar>

@@ -7,7 +7,7 @@ import Vehicle from './pages/Vehicle';
 import Trails from './pages/Trails';
 import Reports from './pages/Reports';
 import Panic from './pages/Panic';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row, Card } from 'react-bootstrap';
 import NavbarVts from './components/navbar/NavbarVts';
 
 
@@ -17,17 +17,20 @@ function App() {
       <div className="leftnav col-md-2">
         <Sidebar />
       </div>
-      
+
       <div className="col-md-10" >
-          <NavbarVts />
-          <Routes>
-            <Route path='/' exact element={<Overview />} />
-            <Route path='/vehicle' exact element={<Vehicle />} />
-            <Route path='/trails' exact element={<Trails />} />
-            <Route path='/reports' exact element={<Reports />} />
-            <Route path='/panic' exact element={<Panic />} />
-          </Routes>
-        
+        <Card responsive style={{ width: 'auto', backgroundColor: "rgba(240, 244, 248)" }}>
+          <Card.Body>
+            <NavbarVts />
+            <Routes>
+              <Route path='/' exact element={<Overview />} />
+              <Route path='/vehicle' exact element={<Vehicle />} />
+              <Route path='/trails' exact element={<Trails />} />
+              <Route path='/reports' exact element={<Reports />} />
+              <Route path='/panic' exact element={<Panic />} />
+            </Routes>
+          </Card.Body>
+        </Card>
       </div>
     </div >
 
