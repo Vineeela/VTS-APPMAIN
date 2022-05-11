@@ -2,14 +2,26 @@ import React from 'react';
 import { Stack } from 'react-bootstrap';
 import { SidebarData } from './SidebarData';
 import { useNavigate } from 'react-router-dom';
-import { Container, Col } from 'react-bootstrap';
+import { Container, Col,Row,ThemeProvider  } from 'react-bootstrap';
 import './Sidebar.css';
+
+
+
 const Sidebar = ({ children }) => {
   const navigate = useNavigate()
   var paths = null
 
   return (
-    <div className='sidebar'>
+
+    <ThemeProvider
+  breakpoints={['xl', 'lg', 'md', 'sm', 'xs', 'xxs']}>
+   <div className='sidebar'>
+     <Container>
+       <Row>
+         <Col sm={3}></Col>
+         <Col></Col>
+       </Row>
+     </Container>
         {SidebarData.map((item, index) => {
           return (
             <li key={index} className={item.cName}>
@@ -25,6 +37,8 @@ const Sidebar = ({ children }) => {
         })}
      
     </div>
+</ThemeProvider>
+   
 
   )
 };

@@ -8,6 +8,7 @@ import {MdMyLocation} from 'react-icons/md';
 import {VscBell} from 'react-icons/vsc';
 import {FaRegUser} from 'react-icons/fa';
 import {HiOutlineUsers} from 'react-icons/hi';
+import {BiStats} from "react-icons/bi";
 
 export const SidebarData=[
     {
@@ -57,6 +58,7 @@ export const SidebarData=[
     {
         title:'Route',
         path:'/enroute',
+        icon:<BiStats/>,
         cName:'nav-text'
     },
     {
