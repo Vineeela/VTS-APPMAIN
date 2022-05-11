@@ -12,8 +12,8 @@ import "./NavbarVts.css";
 
 const NavbarVts = () => {
   return (
-    <div className='vts'>
-      <Navbar bg="light" expand="lg" style={{ width:"auto", backgroundColor:"background-color: rgba(240, 244, 248)" }}>
+    <div >
+      <Navbar className='vts' bg="light" expand="lg" style={{ width:"auto" }}>
         <Container fluid>
           <Navbar.Brand href="#" >Dashboard</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

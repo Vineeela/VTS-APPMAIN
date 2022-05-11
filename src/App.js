@@ -19,9 +19,9 @@ function App() {
       </div>
 
       <div className="col-md-10" >
-        <Card responsive style={{ width: 'auto', backgroundColor: "rgba(240, 244, 248)" }}>
-          <Card.Body>
-            <NavbarVts />
+        <Card responsive style={{  height:"900px", backgroundColor: "rgba(240, 244, 248)" }}>
+          <Card.Body >
+            <NavbarVts/>
             <Routes>
               <Route path='/' exact element={<Overview />} />
               <Route path='/vehicle' exact element={<Vehicle />} />
