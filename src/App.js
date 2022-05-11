@@ -17,7 +17,7 @@ function App() {
       <div className="leftnav col-md-2">
         <Sidebar />
       </div>
-
+      
       <div className="col-md-10" >
           <NavbarVts />
           <Routes>
