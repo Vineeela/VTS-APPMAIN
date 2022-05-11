@@ -13,7 +13,7 @@ import "./NavbarVts.css";
 const NavbarVts = () => {
   return (
     <div >
-      <Navbar className='vts' bg="light" expand="lg" style={{ width:"auto" }}>
+      <Navbar className='vts' bg="#F0F4F8" expand="lg" style={{ width:"auto" }}>
         <Container fluid>
           <Navbar.Brand href="#" >Dashboard</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
