@@ -17,7 +17,6 @@ function App() {
       <div className="leftnav col-md-2">
         <Sidebar />
       </div>
-
       <div className="col-md-10" >
         <Card responsive style={{  height:"900px", backgroundColor: "rgba(240, 244, 248)" }}>
           <Card.Body >

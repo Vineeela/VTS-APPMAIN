@@ -1,14 +1,23 @@
 import React,{Fragment} from 'react'
-import { Container, Col, Row ,Card} from 'react-bootstrap';
-import NavbarVts from '../components/navbar/NavbarVts';
-import Sidebar from '../components/sidebar/Sidebar';
-import Tab from '../components/Tabs/Tab';
+import {Tab,Tabs} from '../components/Tabs/Tab'
+
 
 const Overview = () => {
   return (
-    <Fragment>
-     <Tab/>
-    </Fragment>
+    <main >
+      <Tabs>
+        <Tab label={"Overall"} tabName={"Overall"}>
+          <p>Inject your component here</p>
+        </Tab>
+        <Tab label={"Vehicle Summary"} tabName={"Vehicle Summary"}>
+          <p>Inject your component here</p>
+        </Tab>
+      </Tabs>
+      
+    </main>
+
+
+   
   )
 };
 export default Overview;

@@ -9,7 +9,6 @@ import { BsSearch } from "react-icons/bs";
 import "./NavbarVts.css";
 
 
-
 const NavbarVts = () => {
   return (
     <div >
